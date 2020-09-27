@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="FDA_FOOD_ANGULAR" Class="LINQ_FOODDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=10.111.28.130;Initial Catalog=FDA_FOOD_ANGULAR;User ID=fusion" SettingsObjectName="ManageFile.My.MySettings" SettingsPropertyName="FDA_FOOD_ANGULARConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.MAIN_DATA_DRIVE" Member="MAIN_DATA_DRIVEs">
+    <Type Name="MAIN_DATA_DRIVE">
+      <Column Name="IDA" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PROCESS_ID" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="TR_ID" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="TRANSACTION_NO" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="FDPDTNO" Type="System.String" DbType="NVarChar(13)" CanBeNull="true" />
+      <Column Name="STATUS_ID" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="CREATE_ID" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="CREATE_DATE" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UPDATE_DATE" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PVNCD" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="RCVNO" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="RCVDATE" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="CITIZEN_ID" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="CITIZEN_AUTHORIZE_ID" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="LOCATION_ID" Type="System.String" DbType="NVarChar(8)" CanBeNull="true" />
+      <Column Name="STAFF_ID" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="FDTYPECD" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="AUTO" Type="System.String" DbType="NVarChar(4)" CanBeNull="true" />
+      <Column Name="REF_FDPDTNO" Type="System.String" DbType="NVarChar(13)" CanBeNull="true" />
+      <Column Name="REF_FDPDTNO2" Type="System.String" DbType="NVarChar(13)" CanBeNull="true" />
+      <Column Name="REQUEST_EXP_DATE" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SYSTEM" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

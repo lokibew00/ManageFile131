@@ -15,7 +15,7 @@ Option Explicit On
 Namespace My
     
     <Global.System.Runtime.CompilerServices.CompilerGeneratedAttribute(),  _
-     Global.System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "16.7.0.0"),  _
+     Global.System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "16.6.0.0"),  _
      Global.System.ComponentModel.EditorBrowsableAttribute(Global.System.ComponentModel.EditorBrowsableState.Advanced)>  _
     Partial Friend NotInheritable Class MySettings
         Inherits Global.System.Configuration.ApplicationSettingsBase
@@ -61,6 +61,17 @@ Namespace My
         Public ReadOnly Property ManageFile_wsFlatten_WS_FLATTEN() As String
             Get
                 Return CType(Me("ManageFile_wsFlatten_WS_FLATTEN"),String)
+            End Get
+        End Property
+        
+        <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.SpecialSettingAttribute(Global.System.Configuration.SpecialSetting.ConnectionString),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=10.111.28.130;Initial Catalog=FDA_FOOD_ANGULAR;User ID=fusion;Passwor"& _ 
+            "d=P@ssw0rd")>  _
+        Public ReadOnly Property FDA_FOOD_ANGULARConnectionString() As String
+            Get
+                Return CType(Me("FDA_FOOD_ANGULARConnectionString"),String)
             End Get
         End Property
     End Class

@@ -5,5 +5,13 @@
     <Setting Name="ManageFile_wsFlatten_WS_FLATTEN" Type="(Web Service URL)" Scope="Application">
       <Value Profile="(Default)">http://10.111.28.137/TEST_FLATEN/WS_FLATTEN.asmx</Value>
     </Setting>
+    <Setting Name="FDA_FOOD_ANGULARConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=10.111.28.130;Initial Catalog=FDA_FOOD_ANGULAR;User ID=fusion;Password=P@ssw0rd&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=10.111.28.130;Initial Catalog=FDA_FOOD_ANGULAR;User ID=fusion;Password=P@ssw0rd</Value>
+    </Setting>
   </Settings>
 </SettingsFile>
